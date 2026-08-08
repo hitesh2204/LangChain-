@@ -1,6 +1,8 @@
 # LangChain Core
 langchain
 langchain-core
+langchain-community
+langchain-text-splitters
 
 # OpenAI Integration
 langchain-openai
@@ -18,3 +20,5 @@ python-dotenv
 numpy
 scikit-learn
 streamlit
+pypdf
+unstructured
