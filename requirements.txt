@@ -22,3 +22,6 @@ scikit-learn
 streamlit
 pypdf
 unstructured
+
+# vector store
+faiss-cpu
