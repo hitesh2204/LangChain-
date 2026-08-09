@@ -1,0 +1,21 @@
+player,team,role,runs,wickets,batting_average,strike_rate
+Virat Kohli,India,Batsman,765,2,55.0,142.59
+Rohit Sharma,India,Batsman,650,1,46.43,158.54
+Shubman Gill,India,Batsman,612,0,51.0,151.11
+Jasprit Bumrah,India,Bowler,85,24,17.0,118.06
+Ravindra Jadeja,India,All-rounder,310,18,38.75,145.12
+Hardik Pandya,India,All-rounder,355,15,39.44,157.78
+Babar Azam,Pakistan,Batsman,710,1,50.71,139.76
+Mohammad Rizwan,Pakistan,Wicketkeeper-Batsman,580,0,48.33,134.88
+Shaheen Afridi,Pakistan,Bowler,72,21,18.0,121.02
+Pat Cummins,Australia,Bowler,120,19,24.0,136.36
+Steve Smith,Australia,Batsman,580,0,48.33,132.42
+Glenn Maxwell,Australia,All-rounder,490,14,40.83,176.26
+Jos Buttler,England,Wicketkeeper-Batsman,625,0,52.08,162.34
+Ben Stokes,England,All-rounder,390,12,39.0,143.38
+Jofra Archer,England,Bowler,95,17,23.75,128.38
+Kane Williamson,New Zealand,Batsman,545,0,49.55,129.45
+Trent Boult,New Zealand,Bowler,65,22,16.25,115.04
+Quinton de Kock,South Africa,Wicketkeeper-Batsman,605,0,50.42,155.9
+Rashid Khan,Afghanistan,Bowler,105,25,21.0,150.0
+Nicholas Pooran,West Indies,Wicketkeeper-Batsman,520,0,47.27,168.28
