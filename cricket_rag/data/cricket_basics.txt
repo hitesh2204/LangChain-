@@ -1,0 +1,21 @@
+Cricket is a bat-and-ball sport played between two teams.
+
+Each team usually consists of eleven players.
+
+The main formats of cricket are Test cricket, One Day Internationals, and Twenty20.
+
+In Test cricket, a match can last up to five days.
+
+One Day International matches normally consist of fifty overs per side.
+
+Twenty20 cricket consists of twenty overs per side.
+
+A cricket match consists of batting, bowling, and fielding.
+
+The batting team tries to score runs.
+
+The bowling and fielding team tries to dismiss batsmen and restrict the number of runs.
+
+The International Cricket Council (ICC) is the global governing body for cricket.
+
+Popular cricket tournaments include the Cricket World Cup and the Indian Premier League.
