@@ -6,9 +6,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# createing the llm
-llm = ChatOpenAI(model="gpt-4o-mini",
-                 temperature=0)
+llm = ChatOpenAI(
+    model="gpt-4o-mini",
+    temperature=0
+)
 
 
 class RagPipeline:
@@ -16,15 +17,14 @@ class RagPipeline:
     def __init__(self):
         pass
 
-    def rag_pipeline(self, retriever):
+    def rag_pipeline(self, retriever, query):
 
-        # Creating RetrievalQA chain
+        # Create RetrievalQA chain
         qa_chain = RetrievalQA.from_chain_type(
             llm=llm,
-            retriever=retriever
+            retriever=retriever,
+            return_source_documents=True
         )
-
-        query = "What does the batting team try to achieve?"
 
         # Run RAG
         result = qa_chain.invoke({
@@ -48,9 +48,15 @@ if __name__ == "__main__":
     # Create retriever
     retriever = retriever_class.initiate_retriever(vector_db)
 
-    # Run RAG pipeline
+    # Create RAG pipeline
     rag = RagPipeline()
 
-    result = rag.rag_pipeline(retriever)
+    query = "What is a powerplay?"
 
+    result = rag.rag_pipeline(
+        retriever,
+        query
+    )
     print(result["result"])
+    result["source_documents"]
+
